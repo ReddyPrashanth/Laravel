@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 # Stop NGINX service if it exist and running
 isExistNginx = `pgrep nginx`
