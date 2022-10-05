@@ -3,6 +3,7 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/app/
+file_exists_behaviour: OVERWRITE
 hooks:
   AfterInstall:
     - location: scripts/deploy_code.sh
